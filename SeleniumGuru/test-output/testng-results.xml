@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20309" started-at="2018-02-10T06:52:44Z" finished-at="2018-02-10T06:53:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20309" started-at="2018-02-10T06:52:44Z" finished-at="2018-02-10T06:53:05Z">
+      <class name="TestCase1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestCase1@479d31f3]" name="beforeTest" is-config="true" duration-ms="14900" started-at="2018-02-10T00:52:44Z" finished-at="2018-02-10T00:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCase1@479d31f3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-02-10T00:52:59Z" finished-at="2018-02-10T00:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="amazonAccount()[pri:0, instance:TestCase1@479d31f3]" name="amazonAccount" duration-ms="4178" started-at="2018-02-10T00:52:59Z" finished-at="2018-02-10T00:53:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonAccount -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCase1@479d31f3]" name="afterMethod" is-config="true" duration-ms="1202" started-at="2018-02-10T00:53:04Z" finished-at="2018-02-10T00:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase1@479d31f3]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-02-10T00:53:05Z" finished-at="2018-02-10T00:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
