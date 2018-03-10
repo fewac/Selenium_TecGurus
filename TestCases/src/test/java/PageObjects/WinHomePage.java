@@ -9,6 +9,9 @@ public class WinHomePage extends BasePage{
 	  super();  //sintaxis para llamar al constructor de la clase padre
   }
   
+  //Esta es una notación del Page Factory, sirve para encontrar un elemento por medio
+  //de un ID, name, xpath, etc. Y a este elemento le ponemos un nombre, en este caso
+  // "WindowsMenu"
   @FindBy(id="shellmenu_1")
   public WebElement WindowsMenu;
   
@@ -47,7 +50,17 @@ public class WinHomePage extends BasePage{
 	  
   }
   
-  // Utilizando return this en todos los métidos
+  // Utilizando return this en todos los métodos
+  
+  public WinHomePage ValidaTitulo(String ExpectedTitle) {
+	  String DriverTitle = driver.getTitle();
+	  Assert.assertTrue(DriverTitle.contains(ExpectedTitle));
+	  System.out.println("El título es correcto: " + DriverTitle);
+	  return this;
+  }
+  
+ 
+  
   
   
 }
